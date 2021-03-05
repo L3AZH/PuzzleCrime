@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.puzzlecrime.ui.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment"
+            app:destination="@id/decrypFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment1"
+            app:destination="@id/decrypFragment1" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment2"
+            app:destination="@id/decrypFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/inforFragment"
+        android:name="com.example.puzzlecrime.ui.InforFragment"
+        android:label="InforFragment" />
+    <fragment
+        android:id="@+id/decrypFragment"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment"
+        android:label="DecrypFragment" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
+    <fragment
+        android:id="@+id/decrypFragment1"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment1"
+        android:label="DecrypFragment1" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
+    <fragment
+        android:id="@+id/decrypFragment2"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment2"
+        android:label="DecrypFragment2" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+        <action
+            android:id="@+id/action_decrypFragment2_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.puzzlecrime.stage2extra.CardFragment"
+        android:label="CardFragment" />
+</navigation>

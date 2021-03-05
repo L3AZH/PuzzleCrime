@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PuzzleCrime</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paragraph_stage1">Detective Flanders and the Zodiac Killer is a Puzzle Crime 5tory,
+        exclusively created for Puzzle Prime. Every chapter you read contains a puzzle that must be solved in order to continue further.
+        Sometimes it may not be instantly clear what the puzzle is, but there will be clues spread over the text to guide you.
+        0nce you figure it out, you will reveal a four-digit passcode which will be your key to the next chapter.\n
+        Can you unravel the captivating story of Detective Flanders and the 2odiac Killer?
+        Press button and insert your passcode to find out.</string>
+    <string name="cancle">Cancle</string>
+    <string name="continueVar">Continue</string>
+    <string name="passcode">Passcode</string>
+    <string name="paragraph_stage2">You could easily tell Detective Flanders was a peculiar person by just looking at him.
+        He had many obsessions, but the most noteworthy was his obsession with time.
+        Constantly keeping track of it, Flanders was never late for any occasion.
+        Naturally, the detective had a love for watches, especially electronic ones.
+        He was fascinated by their accuracy and dependability.
+        He had a small collection of rare electronic watches on one of his shelves,
+        which he examined every evening before bed.
+        Interestingly, none of them were adjusted to show the correct time and nobody knew the reason except for Flanders himself.</string>
+    <string name="paragraph_stage2.1">While going through his daily watch examination,
+        Flanders noticed that there was something off with one of his watches. He meticulously fixed it and then continued his evening routine.
+        However, just when he went under the blankets and started drifting away, his phone rang. He looked at the screen and read “Commissioner Morrow.”
+        Flanders had to answer as he rarely received calls from the police department, and never at night.
+        \n “Good evening, Commissioner. Didn’t expect calls at this time, is there a problem?”
+        \n “Hello, Flanders. We have a case here and I think you may be interested.”
+        \n “I’m listening…” he replied, yet couldn’t stop thinking about his watch.”</string>
+    <string name="paragraph_stage3">
+        Detective Flanders was at the crime scene twenty minutes after he received the call. Commissioner Morrow didn’t give much information over the phone, just said that it was “messed up” and “hard to explain.”
+        Flanders parked his car next to an abandoned building with police tape at the entrance and several cops standing in front of it.
+        Upon his arrival, the commissioner was the first one to greet the detective.
+        Flanders could see Morrow was deeply disturbed and his demeanor ignited his curiosity. He loved mysteries and tonight was going to be a big one.
+        \n“What is the fuss about, Commissioner, someone got his TV stolen?” Flanders tried to make a joke, but it fell somewhat flat.
+        \n “I wish that were the case,” replied the commissioner. “Cold-blooded murder, the first one this year. It looks like some religious cult is involved. I’ve never seen anything like it.”
+        \n “Interesting. Did you find any clues? Where is the victim?”
+        \n “I’ll take you there in a moment, but first look at this. We found it next to the body.” Morrow pulled a sealed plastic bag with a small rectangular card inside out of his pocket and handed it to Flanders.
+    </string>
+    <string name="paragraph_stage3.1">
+        \n “Greed.” Flanders read the word written on the front side of the card, flipped it (left-to-right) to examine the back, and then gave it back to Morrow. “I wonder what the punishment for this sin is.”
+        \n “You won’t believe it, come with me.” The commissioner led Flanders underneath the line tape and they both entered the building.
+    </string>
+</resources>
