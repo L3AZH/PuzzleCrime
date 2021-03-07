@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.example.puzzlecrime.R
 import com.example.puzzlecrime.databinding.FragmentInforBinding
 
@@ -22,4 +23,23 @@ class InforFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setOnclickForumClick()
+        setOnclickWebLink()
+    }
+
+    fun setOnclickWebLink(){
+        binding.linkWeb.setOnClickListener {
+            val goToWebViewFragment = InforFragmentDirections.actionInforFragmentToWebAndForumFragment(binding.linkWeb.text.toString())
+            findNavController().navigate(goToWebViewFragment)
+        }
+    }
+    fun setOnclickForumClick(){
+        binding.linkForum.setOnClickListener {
+            val goToWebViewFragment = InforFragmentDirections
+                .actionInforFragmentToWebAndForumFragment("https://www.puzzleprime.com/forums/forum/puzzle-stories/puzzle-crime/")
+            findNavController().navigate(goToWebViewFragment)
+        }
+    }
 }

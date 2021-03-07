@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    <com.example.puzzlecrime.stage2extra.DraggableCoordinatorLayout
+    <com.example.puzzlecrime.stageextra.stage2extra.DraggableCoordinatorLayout
         android:id="@+id/parentCooridnatorLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -219,5 +219,5 @@
             app:srcCompat="@android:drawable/ic_menu_rotate" />
 
 
-    </com.example.puzzlecrime.stage2extra.DraggableCoordinatorLayout>
+    </com.example.puzzlecrime.stageextra.stage2extra.DraggableCoordinatorLayout>
 </layout>

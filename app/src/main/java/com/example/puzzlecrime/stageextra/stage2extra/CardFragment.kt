@@ -1,4 +1,4 @@
-package com.example.puzzlecrime.stage2extra
+package com.example.puzzlecrime.stageextra.stage2extra
 
 
 import android.graphics.BitmapFactory
@@ -180,7 +180,8 @@ class CardFragment:Fragment() {
         binding.parentCooridnatorLayout.addDraggableChild(binding.piece8)
         binding.parentCooridnatorLayout.addDraggableChild(binding.piece9)
         binding.parentCooridnatorLayout.addDraggableChild(binding.piece10)
-        binding.parentCooridnatorLayout.setViewDragListener(object : DraggableCoordinatorLayout.ViewDragListener {
+        binding.parentCooridnatorLayout.setViewDragListener(object :
+            DraggableCoordinatorLayout.ViewDragListener {
             override fun onViewCaptured(view: View, i: Int) {
                 when (view.id) {
                     R.id.piece1 -> {

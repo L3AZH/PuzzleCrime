@@ -18,11 +18,24 @@
         <action
             android:id="@+id/action_homeFragment_to_decrypFragment2"
             app:destination="@id/decrypFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment3"
+            app:destination="@id/decrypFragment3" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment4"
+            app:destination="@id/decrypFragment4" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment5"
+            app:destination="@id/decrypFragment5" />
     </fragment>
     <fragment
         android:id="@+id/inforFragment"
         android:name="com.example.puzzlecrime.ui.InforFragment"
-        android:label="InforFragment" />
+        android:label="InforFragment" >
+        <action
+            android:id="@+id/action_inforFragment_to_webAndForumFragment"
+            app:destination="@id/webAndForumFragment" />
+    </fragment>
     <fragment
         android:id="@+id/decrypFragment"
         android:name="com.example.puzzlecrime.ui.DecrypFragment"
@@ -52,6 +65,41 @@
     </fragment>
     <fragment
         android:id="@+id/cardFragment"
-        android:name="com.example.puzzlecrime.stage2extra.CardFragment"
+        android:name="com.example.puzzlecrime.stageextra.stage2extra.CardFragment"
         android:label="CardFragment" />
+    <fragment
+        android:id="@+id/decrypFragment3"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment3"
+        android:label="DecrypFragment3" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
+    <fragment
+        android:id="@+id/webAndForumFragment"
+        android:name="com.example.puzzlecrime.ui.WebAndForumFragment"
+        android:label="WebAndForumFragment" >
+        <action
+            android:id="@+id/action_webAndForumFragment_to_inforFragment"
+            app:destination="@id/inforFragment" />
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/decrypFragment4"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment4"
+        android:label="DecrypFragment4" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
+    <fragment
+        android:id="@+id/decrypFragment5"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment5"
+        android:label="DecrypFragment5" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
 </navigation>

@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.puzzlecrime.R
 import com.example.puzzlecrime.databinding.FragmentDecryp1Binding
-import com.example.puzzlecrime.ui.Dialog.InputPasscodeDialog
+import com.example.puzzlecrime.ui.dialog.InputPasscodeDialog
 
 class DecrypFragment1 : Fragment() {
 
@@ -32,6 +32,7 @@ class DecrypFragment1 : Fragment() {
     fun onClickFloatButton(){
         binding1.floatingActionButton1.setOnClickListener {
             val dialog = InputPasscodeDialog(args.stage,binding1.titleStage1.text.toString())
+            dialog.isCancelable = false
             dialog.show(requireActivity().supportFragmentManager,"InputPasscodeDialog")
         }
     }

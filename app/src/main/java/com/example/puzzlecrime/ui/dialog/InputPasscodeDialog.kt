@@ -1,4 +1,4 @@
-package com.example.puzzlecrime.ui.Dialog
+package com.example.puzzlecrime.ui.dialog
 
 import android.app.AlertDialog
 import android.app.Dialog
@@ -6,6 +6,7 @@ import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -55,6 +56,7 @@ class InputPasscodeDialog(val stage: Stage,val nameCurrentStage:String):DialogFr
                             .setSmallIcon(R.drawable.ic_baseline_home_24)
                             .setContentTitle("Pass code correct!!")
                             .setContentText("Unlock stage: ${stage.id+1} ")
+                            .setLargeIcon(BitmapFactory.decodeResource(requireActivity().getResources(), R.drawable.img_home))
                             .setContentIntent(pendingIntent)
                             .setCategory(Notification.CATEGORY_NAVIGATION)
                             .setAutoCancel(true)

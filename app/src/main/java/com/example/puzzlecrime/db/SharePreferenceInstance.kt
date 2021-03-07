@@ -11,7 +11,10 @@ class SharePreferenceInstance(val activity: Activity) {
             with(sharedPreferences.edit()){
                 putInt("0",1502)
                 putInt("1",2021)
-                //putInt("2",1713)
+                putInt("2",1713)
+                putInt("3",3106)
+                putInt("4",9726)
+                //putInt("5",5972)
                 apply()
             }
         }

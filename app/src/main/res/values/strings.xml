@@ -40,4 +40,48 @@
         \n “Greed.” Flanders read the word written on the front side of the card, flipped it (left-to-right) to examine the back, and then gave it back to Morrow. “I wonder what the punishment for this sin is.”
         \n “You won’t believe it, come with me.” The commissioner led Flanders underneath the line tape and they both entered the building.
     </string>
+    <string name="paragrap_stage4">
+        Morrow and Flanders went through several narrow corridors until they reached a spacious dark room full of officers.
+        They were all analyzing something in great detail and then Flanders saw it, on the opposite wall there was a dead man tied to a cross.
+        The room was silent; all anyone could do was stare.
+    </string>
+    <string name="paragrap_stage4.1">
+        “Father, forgive them; for they know not what they do.” the detective uttered.
+        \n “What did you say?” asked the Commissioner.
+        \n “Jesus’ last words, he was referring to the Roman soldiers who put him there.” Flanders clarified. “Who is the poor fellow?”
+        \n “His name is Donnie, a local millionaire.”
+        \n “Did he have any enemies?”
+        \n “Many, but nobody we know crazy enough to do this.”
+        Flanders fell silent as he approached the body and examined it. He noticed there was also writing on the wall surrounding the cross.
+        Flanders scribbled something in his notepad, turned around, and left.
+        \n “Call me when you find the next victim,” he said to the Commissioner on his way out.
+    </string>
+    <string name="introdutioncontent">“Detective Flanders and the Zodiac Killer” is a puzzle crime story, created exclusively for Puzzle Prime.
+        Each chapter contains a puzzle which once solved, yields a 4-digit number, which can be used as a passcode for the next chapter.</string>
+    <string name="informationaboutgame">This game was created base on this web( link below)  </string>
+    <string name="linkweb">https://www.puzzleprime.com/puzzle-stories/</string>
+    <string name="puzzelinformation">Got stuck with some puzzle? You can get hints by clicking our forum bellow</string>
+    <string name="paragraph_stage5">On the very next day the detective received another call. There was a second murder, this time in the city’s main park.
+        Exactly 20 minutes after he hung up the phone, Flander arrived at the scene of the crime.
+        Once again Commissioner Morrow was waiting for him, looking even more worried than the last time they met.
+        \n “We’ve identified her,” Morrow said, skipping formalities.
+        \n “It’s Ilaria Clapton, the former Mayor’s wife. Trying to reach her husband now. I have to warn you, the murderer doesn’t lack imagination.”
+        \n Morrow and Flanders made their way through the dozens of policemen gathered at the crime scene until they got to Ilaria’s body. The scene was shocking.</string>
+    <string name="paragraph_stage5.1">
+        “Is that paint on her body?” asked the detective.
+        \n“Yes, the guy has painted her limbs in purple. Any idea why he would do that?”
+        \n“It’s violet, usually associated with the sin of pride,” answered Flanderss. “Did you find any evidence?”
+        \n“This time nothing, not even a cryptic card.”
+        \n“I’m sure something is hidden around here. Make sure to search everywhere within 100 feet of the body,” advised Flandersss.
+        \nMorrow was still staring at the body. “I’ll check with my men.”
+    </string>
+    <string name="paragraph_stage6">
+        Flanders and Morrow were waiting aside, observing the constant movement of police officers on the crime scene.
+        After about 30 minutes, one of them yelled, “I found something buried here. It looks like a box.”
+        Suddenly everybody stopped doing their work and gathered around him. Morrow made his way through the other men and took the box from the officer.
+        He held it for a few moments and after brief hesitation passed it to Flanders. The detective nodded to the Commissioner, accepted the box and opened it.
+         Inside there were two items: an old audio player and a cassette tape.Flanders read the tape’s labe, it looked like it had some of Queen’s best hits.
+        He took it out of the case, inserted it in the player and pressed PLAY. There was a slight humming noise resulting from the antiquated audio quality. 
+        Then a voice emerged:
+    </string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.puzzlecrime.Notification
+package com.example.puzzlecrime.notification
 
 import android.content.BroadcastReceiver
 import android.content.Context

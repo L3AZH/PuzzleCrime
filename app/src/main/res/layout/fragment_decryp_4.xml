@@ -50,14 +50,16 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:fontFamily="@font/stardos_stencil_regular"
-                    android:text="TextView"
+                    android:maxLines="40"
+                    android:text="@string/paragraph_stage5"
                     android:textSize="24sp" />
 
                 <ImageView
                     android:id="@+id/picStage4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:src="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/picstage5"
+                    tools:src="@drawable/picstage5" />
 
                 <TextView
                     android:id="@+id/contentStage4.1"
@@ -65,7 +67,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:fontFamily="@font/stardos_stencil_regular"
-                    android:text="TextView"
+                    android:maxLines="40"
+                    android:text="@string/paragraph_stage5.1"
                     android:textSize="24sp" />
             </LinearLayout>
         </ScrollView>

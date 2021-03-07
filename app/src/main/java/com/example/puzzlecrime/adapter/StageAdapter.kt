@@ -48,7 +48,7 @@ class StageAdapter:RecyclerView.Adapter<StageViewHolder>(){
 }
 class StageViewHolder(val itemBinding: ItemStageReviewBinding):RecyclerView.ViewHolder(itemBinding.root){
     fun binding(stage: Stage,listener: ((Stage) -> Unit)?){
-        itemBinding.nameStage.text = stage.id.toString() +". "+ stage.name
+        itemBinding.nameStage.text = stage.name
         itemView.setOnClickListener {
             listener?.let {
                 it(stage)

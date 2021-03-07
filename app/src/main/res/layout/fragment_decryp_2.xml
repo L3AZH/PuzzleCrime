@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/stardos_stencil_regular"
-                    android:lines="10"
+                    android:lines="13"
                     android:text="@string/paragraph_stage3.1"
                     android:textSize="24sp" />
 

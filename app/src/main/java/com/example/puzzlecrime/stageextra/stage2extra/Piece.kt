@@ -1,4 +1,4 @@
-package com.example.puzzlecrime.stage2extra
+package com.example.puzzlecrime.stageextra.stage2extra
 
 import android.widget.ImageView
 import com.example.puzzlecrime.R
