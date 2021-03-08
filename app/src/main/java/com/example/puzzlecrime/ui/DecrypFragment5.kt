@@ -12,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.SeekBar
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.navArgs
+import com.davemorrissey.labs.subscaleview.ImageSource
 import com.example.puzzlecrime.R
 import com.example.puzzlecrime.databinding.FragmentDecryp5Binding
 import com.example.puzzlecrime.ui.dialog.InputPasscodeDialog
@@ -30,6 +31,7 @@ class DecrypFragment5 : Fragment() {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_decryp_5,container,false)
         mediaPlayer = MediaPlayer.create(activity,R.raw.mp3stage6)
+        binding.picStage51.setImage(ImageSource.resource(R.drawable.picstage6_1))
         return binding.root
     }
 

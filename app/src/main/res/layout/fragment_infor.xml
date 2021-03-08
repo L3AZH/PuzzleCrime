@@ -10,78 +10,90 @@
 
         <!-- TODO: Update blank fragment layout -->
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="52dp"
-            android:fontFamily="@font/stardos_stencil_regular"
-            android:text="Puzzel Crime Story"
-            android:textColor="@android:color/holo_purple"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/Introdution"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:layout_marginBottom="188dp"
-            android:fontFamily="@font/stardos_stencil_regular"
-            android:text="@string/introdutioncontent"
-            android:textAlignment="center"
-            android:textSize="18sp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:fontFamily="@font/stardos_stencil_regular"
-            android:text="@string/informationaboutgame"
-            android:textAlignment="center"
-            android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/linkWeb"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="14dp"
-            android:fontFamily="@font/stardos_stencil_regular"
-            android:text="@string/linkweb"
-            android:textAlignment="center"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="52dp"
+                    android:fontFamily="@font/stardos_stencil_regular"
+                    android:text="Puzzel Crime Story"
+                    android:textColor="@android:color/holo_purple"
+                    android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/inforForum"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:fontFamily="@font/stardos_stencil_regular"
-            android:text="@string/puzzelinformation"
-            android:textAlignment="center"
-            android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/Introdution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_marginBottom="188dp"
+                    android:fontFamily="@font/stardos_stencil_regular"
+                    android:text="@string/introdutioncontent"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/linkForum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginStart="303dp"
-            android:layout_marginEnd="145dp"
-            android:layout_marginBottom="36dp"
-            android:fontFamily="@font/horrendo"
-            android:text="Forum"
-            android:textColor="@android:color/holo_green_dark"
-            android:textSize="30sp"
-            android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:fontFamily="@font/stardos_stencil_regular"
+                    android:text="@string/informationaboutgame"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/linkWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="14dp"
+                    android:fontFamily="@font/stardos_stencil_regular"
+                    android:text="@string/linkweb"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/inforForum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:fontFamily="@font/stardos_stencil_regular"
+                    android:text="@string/puzzelinformation"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/linkForum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="303dp"
+                    android:layout_marginEnd="145dp"
+                    android:layout_marginBottom="36dp"
+                    android:fontFamily="@font/horrendo"
+                    android:text="Forum"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 

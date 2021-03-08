@@ -84,4 +84,31 @@
         He took it out of the case, inserted it in the player and pressed PLAY. There was a slight humming noise resulting from the antiquated audio quality. 
         Then a voice emerged:
     </string>
+    <string name="paragraph_stage7">
+        The police department and Detective Flanders continued to look for more evidence at the crime scene for the next few hours.
+        It was a public park where many people passed by on a daily basis; finding traces left by the murderer seemed an impossible task.
+        It was almost midnight and most of the police officers had already gone home for the day when Flanders noticed something in the mud.
+        He called the commissioner to check while he began analyzing. Morrow didn’t notice anything unusual.
+    </string>
+    <string name="paragraph_stage7.1">
+        \n “You don’t notice anything strange there?” The detective asked.
+        \n “I see a lot of footprints. Am I missing something?”
+        \n “Look more carefully,” advised Flanders and a subtle smile appeared on his face.
+    </string>
+    <string name="paragraph_stage8">
+        After several moments of awkward silence, Flanders finally explained his observation:
+        \n “Do you see those two footprints? They should be a pair, but are mismatched.”
+        \n “Oh yes, I can see them now,” Morrow replied and felt a little embarrassed for not noticing it himself. “What, you think they belong to our killer?”
+        \n “Can’t be sure, but it is definitely something worth looking into.”
+        \n The commissioner was just about to reply when a police officer came to them with a worried expression.
+        \n “What’s up, son?” asked Morrow.
+        \n “It’s Mr. Phil Clapton, sir, he doesn’t pick up his phone. We went to his mansion to meet with him, but he doesn’t open the door either,” reported the officer.
+        \n “Was the door locked? Did you try to get inside?”
+        \n “The door was locked, sir, but we didn’t want to break in without checking with you first.”
+        \n The commissioner sighed, “I have a bad feeling about this”, and got ready to go.
+        Fifteen minutes later, Morrow, Flanders, and three other police officers were in front of the former mayor’s house.
+        It was a large building with its own parking lot, a fountain, and everything you could expect from an expensive, luxurious mansion.
+        The five men tried to call Phil one last time, and when nobody answered, they broke the door.
+        It didn’t take them long before they found him lying dead in the Claptons’ personal gallery room. He was holding a red rose in his hands.
+    </string>
 </resources>

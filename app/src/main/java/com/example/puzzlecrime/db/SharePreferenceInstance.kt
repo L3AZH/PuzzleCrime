@@ -14,7 +14,8 @@ class SharePreferenceInstance(val activity: Activity) {
                 putInt("2",1713)
                 putInt("3",3106)
                 putInt("4",9726)
-                //putInt("5",5972)
+                putInt("5",5972)
+                //putInt("6",5623)
                 apply()
             }
         }
