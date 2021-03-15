@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_homeFragment_to_decrypFragment7"
             app:destination="@id/decrypFragment7" />
+        <action
+            android:id="@+id/action_homeFragment_to_decrypFragment8"
+            app:destination="@id/decrypFragment8" />
     </fragment>
     <fragment
         android:id="@+id/inforFragment"
@@ -120,6 +123,14 @@
         android:id="@+id/decrypFragment7"
         android:name="com.example.puzzlecrime.ui.DecrypFragment7"
         android:label="DecrypFragment7" >
+        <argument
+            android:name="stage"
+            app:argType="com.example.puzzlecrime.model.Stage" />
+    </fragment>
+    <fragment
+        android:id="@+id/decrypFragment8"
+        android:name="com.example.puzzlecrime.ui.DecrypFragment8"
+        android:label="DecrypFragment8" >
         <argument
             android:name="stage"
             app:argType="com.example.puzzlecrime.model.Stage" />

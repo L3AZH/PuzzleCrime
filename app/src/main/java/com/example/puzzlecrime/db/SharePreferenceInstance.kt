@@ -4,10 +4,11 @@ import android.app.Activity
 import android.content.Context
 import android.util.Log
 import com.example.puzzlecrime.MainActivity
+import kotlin.coroutines.coroutineContext
 
-class SharePreferenceInstance(val activity: Activity) {
+class SharePreferenceInstance(val context: Context) {
     fun initDataSharePreference(){
-        val sharedPreferences = activity?.getPreferences(Context.MODE_PRIVATE)?:return
+        val sharedPreferences = context.getSharedPreferences("com.example.puzzlecrime.db",android.content.Context.MODE_PRIVATE)
         if (sharedPreferences.all.size == 0){
             Log.i("Init SharePreference", "init key passcode .......")
             with(sharedPreferences.edit()){
@@ -18,7 +19,8 @@ class SharePreferenceInstance(val activity: Activity) {
                 putInt("4",9726)
                 putInt("5",5972)
                 putInt("6",5623)
-                //putInt("7",3274)
+                putInt("7",3274)
+                //putInt("8",0000)
                 apply()
             }
         }
@@ -28,7 +30,7 @@ class SharePreferenceInstance(val activity: Activity) {
 //        }
     }
     fun checkKey(idStage:Int,keyInput:Int):Boolean{
-        val sharePreferenceInstance = activity?.getPreferences(Context.MODE_PRIVATE)
+        val sharePreferenceInstance = context.getSharedPreferences("com.example.puzzlecrime.db",android.content.Context.MODE_PRIVATE)
         val StageKey = sharePreferenceInstance.getInt("${idStage}",-1)
         return keyInput == StageKey
     }

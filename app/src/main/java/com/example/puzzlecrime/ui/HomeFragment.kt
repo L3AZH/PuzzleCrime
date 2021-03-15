@@ -84,6 +84,9 @@ class HomeFragment : Fragment() {
                 7->{
                     it.actionHomeFragmentToDecrypFragment7(stage)
                 }
+                8->{
+                    it.actionHomeFragmentToDecrypFragment8(stage)
+                }
                 else->{
                     it.actionHomeFragmentToDecrypFragment(stage)
                 }
