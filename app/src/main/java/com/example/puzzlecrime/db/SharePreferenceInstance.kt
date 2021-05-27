@@ -20,7 +20,9 @@ class SharePreferenceInstance(val context: Context) {
                 putInt("5",5972)
                 putInt("6",5623)
                 putInt("7",3274)
-                //putInt("8",0000)
+                //putInt("8",5341)
+                //putInt("9",5259)
+                //putInt("10",0251)
                 apply()
             }
         }
